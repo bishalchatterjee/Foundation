@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_toast_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/donate"
+            android:layout_width="wrap_content"
+            android:layout_height="162dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="62dp"
+            app:srcCompat="@drawable/donate_alt"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/donate_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/donate"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:text="I acknowledge that this app is free to use, however a small contribution is always appreciated."
+            android:textColor="@color/custom_toast_color"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/donate_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:text='(Your "Small Support" will keep me motivated and help me keep the app Ads free)'
+            android:textColor="@color/custom_toast_color"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/donate_details_title"
+            android:layout_width="232dp"
+            android:layout_height="62dp"
+            android:layout_below="@id/donate_textview"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="89dp"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:text="--MY UPI ID--"
+            android:textColor="@color/custom_toast_color"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/donate_details"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/donate_details_title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="38dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:onClick="onClickUPI"
+            android:text="bishalc430@oksbi"
+            android:textColor="#CB273AC6"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/donate_details"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="106dp"
+            android:gravity="center"
+            android:text='(Tap The "UPI ID" To Copy It)'
+            android:textColor="@color/custom_toast_color"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

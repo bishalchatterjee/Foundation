@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#101010</color>
+    <color name="purple_700">#101010</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="custom_med">#2F2F33</color>
+//custom dashboard
+    <color name="primary">#667AFF</color>
+    <color name="background">#252C4B</color>
+    <color name="card_background">#27325F</color>
+    <color name="primary_text">#565B65</color>
+    <color name="secondary_text">#9B9A9D</color>
+    <color name="dashboard_item_1">#2cc2ea</color>
+    <color name="dashboard_item_2">#4de9c9</color>
+    <color name="dashboard_item_3">#72a4ff</color>
+    <color name="dashboard_item_4">#8b72ff</color>
+    <color name="dashboard_item_5">#E626A0</color>
+    <color name="dashboard_item_6">#0D5061</color>
+
+
+    <color name="custom_toast_color">#FFFFFF</color>
+    <color name="custom_background_start_end_color">#3F4247</color>
+    <color name="custom_button_tint_color">#3F4247</color>
+    <color name="custom_mode_select">#B3E4B5</color>
+
+
+</resources>

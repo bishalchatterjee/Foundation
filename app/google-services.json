@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "657606112475",
+    "project_id": "foundation-c2b46",
+    "storage_bucket": "foundation-c2b46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657606112475:android:cc243410b5d8bd744c08fe",
+        "android_client_info": {
+          "package_name": "com.bishal.foundation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657606112475-4q2mfchj911mul3g0m3dekr4312c1vsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA0G5UPHNIY1J1_goUbBgklFSEEW-vb7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657606112475-4q2mfchj911mul3g0m3dekr4312c1vsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

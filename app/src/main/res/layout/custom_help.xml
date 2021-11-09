@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_toast_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="261dp"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="75dp"
+            app:srcCompat="@drawable/help2" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/help"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:text="-- CONTACT ME --"
+            android:textColor="@color/custom_toast_color"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_details"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            android:fontFamily="@font/autour_one"
+            android:gravity="start"
+            android:onClick="onClickEmail"
+            android:text="Business Email-bishalc430@gmail.com"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_number"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact_details"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="11dp"
+            android:clickable="true"
+            android:fontFamily="@font/autour_one"
+            android:gravity="start"
+            android:onClick="onClickNumber"
+            android:text="Business Contact Number-                        +91 7478566042"
+            android:textColor="@color/primary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_social"
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact_number"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="11dp"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:text="--Social Media-- "
+            android:textColor="@color/custom_toast_color"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_social_instagram"
+            android:layout_width="360dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/contact_social"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/custom_btn"
+            android:clickable="true"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:onClick="onClickInstagram"
+            android:text="Instagram"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_social_facebook"
+            android:layout_width="360dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/contact_social_instagram"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/custom_btn"
+            android:clickable="true"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:onClick="onClickFacebook"
+            android:text="Facebook"
+            android:textColor="#4806FF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_social_linkedIn"
+            android:layout_width="360dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/contact_social_facebook"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/custom_btn"
+            android:clickable="true"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:onClick="onClickLinkedIn"
+            android:text="LinkedIn"
+            android:textColor="#205273"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact_social_GitHub"
+            android:layout_width="360dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/contact_social_linkedIn"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_btn"
+            android:clickable="true"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:onClick="onClickGitHub"
+            android:text="GitHub"
+            android:textColor="#0A7A33"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="107dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="106dp"
+            android:gravity="center"
+            android:text="(Tap Each Info To Copy It)"
+            android:textColor="@color/custom_toast_color"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

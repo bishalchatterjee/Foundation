@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".FeedbackActivity"
+android:background="@drawable/custom_toast_background">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="-53dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <ImageView
+        android:id="@+id/feedback"
+        android:layout_width="290dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="65dp"
+        app:srcCompat="@drawable/feedback2" />
+
+    <TextView
+        android:id="@+id/feedback_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedback"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="14dp"
+        android:fontFamily="@font/autour_one"
+        android:gravity="center"
+        android:text="--FEEDBACK--"
+        android:textColor="@color/custom_toast_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <EditText
+        android:id="@+id/feedback_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+        android:layout_below="@id/feedback_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:fontFamily="@font/asul"
+        android:gravity="center"
+        android:hint="Type Your  Feedback Here......"
+        android:inputType="textAutoCorrect"
+        android:scrollHorizontally="true"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/custom_toast_color"
+        android:textColorHint="#FAF5F5"
+        android:textIsSelectable="true"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/copy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedback_edit"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/autour_one"
+        android:padding="10dp"
+        android:text="Copy This Feedback"
+        android:textAlignment="center"
+        android:textColor="#F8F8F8"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@id/copy_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="124dp"
+        android:background="@drawable/custom_btn"
+        android:onClick="onClickFeedBack"
+        android:textAlignment="viewStart"
+        app:srcCompat="@drawable/send"
+        app:tint="@color/black" />
+
+    <ImageView
+        android:id="@+id/feedback_info_imageview_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="362dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="698dp"
+        android:onClick="onClickFeedBack_info"
+        app:srcCompat="@drawable/info"
+        app:tint="@color/custom_toast_color" />
+
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
